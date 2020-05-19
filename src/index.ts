@@ -1,5 +1,5 @@
 export { generateConfigurationContent } from './generators/edgeConfigurationContentGenerator';
-export { generateConfigurationContent } from './generators/edgeConfigurationContentPatchGenerator';
+export { generateConfigurationContentPatch } from './generators/edgeConfigurationContentPatchGenerator';
 export { toEdgeConfigurationContentViewModel } from './parsers/edgeConfigurationContentParser';
 export { toEdgeConfigurationContentPatchViewModel } from './parsers/edgeConfigurationContentPatchParser';
 export { to$EdgeAgentModuleTwinViewModel } from './parsers/$EdgeAgentModuleTwinParser';
