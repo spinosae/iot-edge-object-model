@@ -22,6 +22,6 @@ steps:
 
 - task: Npm@1
   inputs:
-    command: 'install'
-    customRegistry: 'useFeed'
-    customFeed: '2c2422ff-9cc3-47fb-8621-1d6314ff94df'
+    command: 'publish'
+    publishRegistry: 'useFeed'
+    publishFeed: '2c2422ff-9cc3-47fb-8621-1d6314ff94df'
