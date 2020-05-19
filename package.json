@@ -28,7 +28,7 @@
   "scripts": {
     "build": "npm run clean && npm run build-ci",
     "build-ci": "npm run lint && tsc",
-    "clean": "IF EXIST .\\dist RMDIR /Q /S .\\dist",
+    "clean": "rm -rf dist",
     "coverage-compile": "tsc --target es6 --module CommonJS --moduleResolution node ./scripts/verifyCoverage.ts",
     "test": "jest --coverage",
     "lint": "tslint --project . -s node_modules/tslint-stylish -t stylish",
