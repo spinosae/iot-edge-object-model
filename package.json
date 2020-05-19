@@ -33,7 +33,8 @@
     "test": "jest --coverage",
     "lint": "tslint --project . -s node_modules/tslint-stylish -t stylish",
     "verify-coverage": "npm run coverage-compile && node ./scripts/verifyCoverage.js",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "prepare": "npm run build"
   },
   "jest": {
     "collectCoverage": true,
